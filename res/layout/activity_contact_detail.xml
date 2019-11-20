@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+  
+    <TextView 
+        android:id="@+id/tvname"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tvaddressl"
+        android:text="Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvname"
+        />
+    
+    <TextView 
+        android:id="@+id/tvaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvaddressl"
+        android:layout_marginBottom="14dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tvemaill"
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvaddress"
+        />
+    
+    <TextView 
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvemaill"
+        android:layout_marginBottom="14dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tvphonel"
+        android:text="Phone Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvemail"
+        />
+    
+    <TextView 
+        android:id="@+id/tvphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvphonel"
+        android:layout_marginBottom="14dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tvdobl"
+        android:text="Date of Birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvphone"
+        />
+    
+    <TextView 
+        android:id="@+id/tvdob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdobl"
+        />
+    
+    
+    
+</RelativeLayout>
